@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -32,4 +31,4 @@ jobs:
       with:
         app-name: 'ti2021asasn'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_07bf097bf0744b0b8e1f2e6e16e48e0c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9cd60fef94d6421aba452bac295ce990 }}
