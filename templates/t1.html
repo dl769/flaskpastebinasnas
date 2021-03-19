@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}NEW PASTE{% endblock %}
+{% block content %}          
+<div class="container-fluid h-50 mainDiv">
+    <!--2-8-2-->
+    <div class="row align-self-center">
+        <div class="col-lg-2 itemF"></div>
+        
+        <div class="col-lg-8 itemF">
+
+            <h2>New Paste</h2>
+
+            <div class="d-flex justify-content-center">
+            <div class="form-inline col-lg-8">
+                <form class="col-lg-12 center-block" method="POST" role="form" action="/addpastetodb">
+                    <textarea class="form-control" name='textareaInput' id="pasteArea" rows="12" placeholder="your paste..." style="text-align: center; min-width: 100%"></textarea>
+              
+                    <button class="btn btn-primary mb-2">Paste</button>
+                </form>
+            </div>
+            </div>
+
+        </div>
+        
+        <div class="col-lg-2 itemF"></div>
+    </div> 
+
+</div>
+{% endblock %}

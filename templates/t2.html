@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}VIEW PASTE{% endblock %}
+{% block content %}
+<div class="container-fluid h-50 mainDiv">
+    <!--2-8-2-->
+    <div class="row align-self-center">
+        <div class="col-lg-2 itemF"></div>
+        
+        <div class="col-lg-8 itemF">
+            <h3>PASTE:</h3>
+            <div class="d-flex justify-content-center">
+            <div class="form-inline col-lg-8">
+                <div class="col-lg-12 center-block ex1" style="border: .1vh solid black; height: 30vh; background-color: rgb(191, 191, 191); overflow: auto;">
+                        {{pasteparsed|safe}}
+                </div>
+            </div>
+            </div>
+
+        </div>
+        
+        <div class="col-lg-2 itemF"></div>
+    </div> 
+
+</div>    
+<div class="container-fluid h-50 mainDiv">
+    <!--2-8-2-->
+    <div class="row align-self-center">
+        <div class="col-lg-2 itemF"></div>
+        
+        <div class="col-lg-8 itemF">
+            <h3>RAW PASTE DATA</h3>
+            <div class="d-flex justify-content-center">
+            <div class="form-inline col-lg-8">
+                <div class="col-lg-12 center-block">
+                    <textarea class="form-control" name='rawText' id="pasteArea" rows="12" style="text-align: center; min-width: 100%">
+                    {{pasteunparsed}}
+                    </textarea>             
+                </div>
+            </div>
+            </div>
+
+        </div>
+        
+        <div class="col-lg-2 itemF"></div>
+    </div> 
+
+</div>
+{% endblock %}
