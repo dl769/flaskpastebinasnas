@@ -1,10 +1,10 @@
 # flaskpastebinasnas
 
-Pastebin alike written in Flask with ip validator + API for lookup for ipv4/ipv6 ASN and AS. 
+Pastebin alike written in Flask with ip validator + API for lookup for ipv4/ipv6's ASN and AS. 
 
-To each eligible IP, AS and ASNumber is provided on :hover as well as server location
+To each eligible IP, AS and ASNumber is provided on :hover as well as the server location
 
-To each paste generated unique uuid. 
+To each paste there's unique uuid generated. 
 
 Need to switch from SQLite to eg. SQL server to run it on webserver.
 
