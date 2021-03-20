@@ -8,9 +8,9 @@ To each paste generated unique uuid.
 
 Need to switch from SQLite to eg. SQL server to run it on webserver.
 
-![alt text](https://github.com/dl769/flaskpastebinasnas/blob/master/p1.png?raw=true)
+![alt text](https://raw.githubusercontent.com/dl769/flaskpastebinasnas/master/img/p1.png)
 
-![alt text](https://raw.githubusercontent.com/dl769/flaskpastebinasnas/master/img/p2.jpg)
+![alt text](https://raw.githubusercontent.com/dl769/flaskpastebinasnas/master/img/p2.png)
 
 
 
